@@ -3,7 +3,7 @@ RAILTECH (Railway Acceleration and Impact Logging Technology) is a software whic
 
 
 ### Requirements
-MATLAB Desktop App
+MATLAB
 ## Instructions to Use the App
 1. Clone the Repo or Download the Zip file and unzip it
 2. Look for a file named ```app1.mlappinstall``` and double click on it
