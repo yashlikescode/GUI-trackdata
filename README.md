@@ -19,4 +19,10 @@ MATLAB
 1. Clone the Repo or Download the Zip file and Unzip the file named ```RailTech-main.zip```
 2. look for a file named ```app1.mlapp``` and double click on it
 3. That should launch matlab app designer which can be edited and run by click on the ```Run``` button at the top
+
+## GUI
+### Input
 ![image](https://github.com/yashlikescode/RailTech/assets/66861659/26c8b00b-c4f9-45bb-bfb1-6c04988113bc)
+### Result
+![image](https://github.com/yashlikescode/RailTech/assets/66861659/323ead36-476b-477d-a898-24c9ad565085)
+
