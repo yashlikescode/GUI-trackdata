@@ -1,4 +1,4 @@
-% Script with all the results plotting
+   % Script with all the results plotting
 
 % Not a function.
 % Plots the requested figures specified in A04_Options

@@ -1,4 +1,4 @@
-function [Sol] = B65_DynamicCalcCoupledFaster(Veh,Model,Calc,Track,Sol)
+function [Sol] = B65_DynamicCalcCoupledFaster(app,Veh,Model,Calc,Track,Sol)
 
 % Faster alternative version of script B65. The main difference is that the
 % system matrices are assembled using the sparse() command
@@ -341,7 +341,14 @@ Aux.PCtime = etime(clock,Aux.PCtime_start);
 if Aux.PCtime > Aux.last_display_time
     disp_text = ['Time step ',num2str(t-1),' of ',num2str(num_t),...
         ' (',num2str(round((t-1)/num_t*100,2)),'%)'];
-    disp(disp_text);
+    
+    currentText = app.Value;
+    newText = disp_text;
+    updatedText = [currentText ; newText];
+    app.Value = updatedText;
+    drawnow;  
+    app.scroll('bottom');
+
     Aux.last_display_time = Aux.last_display_time + Aux.disp_every_t;
 end % if Aux.PCtime > Aux.last_display_time
 

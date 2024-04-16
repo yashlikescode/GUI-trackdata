@@ -348,8 +348,8 @@ if mod(Calc.Profile.L,Track.Sleeper.spacing) > Calc.Cte.tol
 end % if mod(Calc.Profile.minL,Track.Sleeper.spacing) > Calc.Cte.tol
 
 % Redux model
-if Calc.Options.redux == 0
-    disp('No redux model is used! Are sure about this?');
-end % if Calc.Options.redux == 0
+% if Calc.Options.redux == 0
+%     disp('No redux model is used! Are sure about this?');
+% end % if Calc.Options.redux == 0
 
 % ---- End of function ----
