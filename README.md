@@ -1,4 +1,7 @@
 # RailTech
+RAILTECH (Railway Acceleration and Impact Logging Technology) is a software which provides Acceleration and Speed of Railway Track vibration for the configured train.
+
+
 ### Requirements
 MATLAB Desktop App
 ## Instructions to Use the App
